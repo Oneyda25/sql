@@ -1,0 +1,5 @@
+Modificar la tabla de clientes para añadir una columna de dirección:
+
+ALTER TABLE clientes
+ADD COLUMN Direccion varchar(255);
+
