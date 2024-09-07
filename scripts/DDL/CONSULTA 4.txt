@@ -1,0 +1,33 @@
+
+- Insertar un nuevo cliente:
+
+INSERT INTO clientes (Nombre, Apellido, Telefono, Email, FechaRegistro, Direccion)
+VALUES 
+('Ana', 'Gómez', '555987654', 'ana.gomez@example.com', '2024-09-06', 'Calle Falsa 123'),
+('Luis', 'Pérez', '555654321', 'luis.perez@example.com', '2024-09-06', 'Avenida Siempre Viva 456'),
+('María', 'Rodríguez', '555321987', 'maria.rodriguez@example.com', '2024-09-06', 'Boulevard Central 789'),
+('José', 'Fernández', '555147258', 'jose.fernandez@example.com', '2024-09-06', 'Plaza Mayor 101'),
+('Laura', 'Sánchez', '555369852', 'laura.sanchez@example.com', '2024-09-06', 'Calle de la Luna 202'),
+('Pedro', 'García', '555852963', 'pedro.garcia@example.com', '2024-09-06', 'Avenida del Sol 303'),
+('Elena', 'Morales', '555741258', 'elena.morales@example.com', '2024-09-06', 'Calle del Río 404'),
+('Raúl', 'Jiménez', '555963852', 'raul.jimenez@example.com', '2024-09-06', 'Calle Verde 505'),
+('Isabel', 'Muñoz', '555258369', 'isabel.munoz@example.com', '2024-09-06', 'Calle del Mar 606'),
+('Ricardo', 'Vásquez', '555987321', 'ricardo.vasquez@example.com', '2024-09-06', 'Avenida del Árbol 707'),
+('Natalia', 'Castro', '555741963', 'natalia.castro@example.com', '2024-09-06', 'Calle del Lago 808'),
+('Andrés', 'Molina', '555369741', 'andres.molina@example.com', '2024-09-06', 'Calle del Bosque 909'),
+('Sofía', 'Ramírez', '555852741', 'sofia.ramirez@example.com', '2024-09-06', 'Calle del Viento 1001'),
+('Jorge', 'Cordero', '555963741', 'jorge.cordero@example.com', '2024-09-06', 'Calle de la Esperanza 1002'),
+('Carmen', 'Benítez', '555258741', 'carmen.benitez@example.com', '2024-09-06', 'Avenida del Océano 1003'),
+('Diego', 'Romero', '555147369', 'diego.romero@example.com', '2024-09-06', 'Calle del Sol 1004'),
+('Gabriela', 'Serrano', '555369258', 'gabriela.serrano@example.com', '2024-09-06', 'Calle del Río 1005'),
+('Hugo', 'Navarro', '555852963', 'hugo.navarro@example.com', '2024-09-06', 'Calle de la Luna 1006'),
+('Valeria', 'Paredes', '555963852', 'valeria.paredes@example.com', '2024-09-06', 'Avenida Siempre Viva 1007'),
+('Miguel', 'Ortíz', '555258963', 'miguel.ortiz@example.com', '2024-09-06', 'Calle del Mar 1008'),
+('Paola', 'Aguilar', '555741852', 'paola.aguilar@example.com', '2024-09-06', 'Calle del Bosque 1009'),
+('Fernando', 'Ríos', '555852147', 'fernando.rios@example.com', '2024-09-06', 'Calle Verde 1010'),
+('Lucía', 'Valencia', '555963147', 'lucia.valencia@example.com', '2024-09-06', 'Avenida del Sol 1011'),
+('Alejandro', 'Martínez', '555258147', 'alejandro.martinez@example.com', '2024-09-06', 'Plaza Mayor 1012'),
+('Silvia', 'Quintero', '555741963', 'silvia.quintero@example.com', '2024-09-06', 'Calle del Océano 1013'),
+('Óscar', 'García', '555852963', 'oscar.garcia@example.com', '2024-09-06', 'Calle de la Esperanza 1014');
+
+

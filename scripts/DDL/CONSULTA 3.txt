@@ -1,0 +1,3 @@
+- Crear un índice en la columna FechaVenta de la tabla ventas:
+
+CREATE INDEX idx_fecha_venta ON ventas (FechaVenta);
