@@ -1,0 +1,16 @@
+- Actualizar el precio de un producto específico (por ejemplo, ProductoID = 1):
+
+UPDATE productos
+SET Precio = 80.00
+WHERE ProductoID = 1;
+
+- Eliminar una venta específica (por ejemplo, VentaID = 2):
+
+DELETE FROM ventas
+WHERE VentaID = 2;
+
+- Seleccionar todos los clientes que se registraron en septiembre de 2024:
+
+SELECT * FROM clientes
+WHERE FechaRegistro BETWEEN '2024-09-01' AND '2024-09-30';
+

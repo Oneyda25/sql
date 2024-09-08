@@ -1,0 +1,8 @@
+- Mostrar los productos que tienen un precio superior al promedio de todos los productos:
+
+SELECT NombreProducto, Precio
+FROM productos
+WHERE Precio > (
+    SELECT AVG(Precio)
+    FROM productos
+);

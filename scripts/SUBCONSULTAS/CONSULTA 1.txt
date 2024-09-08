@@ -1,0 +1,11 @@
+- Obtener el nombre del cliente que ha realizado la mayor cantidad de compras:
+
+SELECT Nombre, Apellido
+FROM clientes
+WHERE ClienteID = (
+    SELECT ClienteID
+    FROM ventas
+    GROUP BY ClienteID
+    ORDER BY COUNT(VentaID) DESC
+    LIMIT 1
+);

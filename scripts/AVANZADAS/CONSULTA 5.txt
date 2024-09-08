@@ -1,0 +1,5 @@
+- Calcular el total de ingresos de ventas por cada día:
+
+SELECT FechaVenta, SUM(Total) AS Total_Ingresos
+FROM ventas
+GROUP BY FechaVenta;

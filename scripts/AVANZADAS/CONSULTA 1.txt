@@ -1,0 +1,10 @@
+- Obtener el total de ventas realizadas por cada cliente y ordenarlas en orden descendente:
+
+SELECT C.Nombre, C.Apellido, SUM(V.Total) AS Total_Ventas
+FROM clientes C
+JOIN ventas V ON C.ClienteID = V.ClienteID
+GROUP BY C.ClienteID
+ORDER BY Total_Ventas DESC;
+
+
+

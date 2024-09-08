@@ -1,0 +1,7 @@
+- Obtener los clientes que no han realizado ninguna compra:
+
+SELECT C.Nombre, C.Apellido
+FROM clientes C
+LEFT JOIN ventas V ON C.ClienteID = V.ClienteID
+WHERE V.VentaID IS NULL;
+

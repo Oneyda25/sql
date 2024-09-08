@@ -1,0 +1,7 @@
+- Mostrar el producto con el mayor margen de ganancia (precio - costo unitario):
+
+SELECT P.NombreProducto, (P.Precio - DV.PrecioUnitario) AS Margen_Ganancia
+FROM productos P
+JOIN detallesventa DV ON P.ProductoID = DV.ProductoID
+ORDER BY Margen_Ganancia DESC
+LIMIT 1;

@@ -1,0 +1,8 @@
+- Listar los productos que se han vendido en más de 2 transacciones:
+
+SELECT P.NombreProducto, COUNT(DV.VentaID) AS Numero_Ventas
+FROM productos P
+JOIN detallesventa DV ON P.ProductoID = DV.ProductoID
+GROUP BY P.ProductoID
+HAVING Numero_Ventas > 2;
+

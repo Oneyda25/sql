@@ -1,0 +1,8 @@
+- Obtener la fecha de la venta con el mayor total de venta:
+
+SELECT FechaVenta
+FROM ventas
+WHERE Total = (
+    SELECT MAX(Total)
+    FROM ventas
+);
