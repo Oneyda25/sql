@@ -1,21 +1,26 @@
-Proyecto de Base de Datos para Zapatería
-Descripción del Proyecto
+
+# Proyecto de Base de Datos para Zapatería
+
+## Descripción del Proyecto
+
 Este proyecto consiste en la creación de una base de datos relacional para una zapatería, desarrollado en MySQL Workbench. La base de datos incluye entidades como Clientes, Productos, Proveedores, Categorías, Inventario, Ventas, Empleados, Pedidos y sus respectivos detalles. Su objetivo es gestionar de manera eficiente la información comercial, incluyendo el manejo de inventarios, ventas y clientes, facilitando consultas avanzadas y reportes detallados.
-Restaurar Base de Datos
-	Para restaurar la base de datos en MySQL Workbench, sigue los siguientes pasos:
-1.	Abrir MySQL Workbench y conectar con el servidor de base de datos.
-2.	Cargar el archivo SQL que contiene los scripts para la base de datos:
 
-•	Ve a la pestaña "Server" en la parte superior.
-•	Selecciona la opción "Data Import".
-•	Elige la opción "Import from Self-Contained File" y selecciona el archivo SQL correspondiente al proyecto.
-•	Selecciona la base de datos donde se realizará la restauración o crea una nueva si es necesario.
-•	Haz clic en "Start Import" para restaurar las tablas y los datos.
+## Restaurar Base de Datos
 
-3.	Una vez restaurada, las tablas estarán listas para ser utilizadas.
-
-	Opción 2.
-El siguiente código copiarlo o tomarlo de la carpeta Backups y ejecutarlo en un Query en workbench, se creará la BD de inmediato. 
+Para restaurar la base de datos en MySQL Workbench, sigue los siguientes pasos:
+	Opción 1. Importar el archivo SQL en MySQL Workbench.
+1. Abrir MySQL Workbench y conectar con el servidor de base de datos.
+2. Cargar el archivo SQL que contiene los scripts para la base de datos:
+    - Ve a la pestaña "Server" en la parte superior.
+    - Selecciona la opción "Data Import".
+    - Elige la opción "Import from Self-Contained File" y selecciona el archivo .sql correspondiente al proyecto.
+    - Selecciona la base de datos donde se realizará la restauración o crea una nueva si es necesario.
+    - Haz clic en "Start Import" para restaurar las tablas y los datos.
+3. Una vez restaurada, las tablas estarán listas para ser utilizadas.
+	Opción 2. Ejecutar el script SQL directamente.
+1. Abre MySQL Workbench y conecta al servidor.
+2. Copia el siguiente script SQL o utiliza el archivo de la carpeta Backups.
+3. Pega y ejecuta el código en un query:
 -- MySQL dump 10.13  Distrib 8.0.38, for Win64 (x86_64)
 --
 -- Host: 127.0.0.1    Database: zapateria
@@ -185,20 +190,32 @@ UNLOCK TABLES;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
 -- Dump completed on 2024-09-08 14:06:25
-Instrucciones Relevantes
-•	Conexión a MySQL Workbench:
-•	Usuario: usuario
-•	Contraseña: contraseña
-•	Host: localhost
-•	Puerto: 3306
-•	Tablas Principales:
-•	Clientes: Gestión de la información de los clientes (nombre, dirección, teléfono).
-•	Productos: Almacena los datos de los zapatos (nombre, precio, categoría).
-•	Proveedores: Control de proveedores (nombre, contacto, productos que suministran).
-•	Ventas: Registro de todas las transacciones realizadas.
-•	Inventario: Seguimiento de las existencias de productos.
-•	Consultas SQL: Dentro de la carpeta de archivos, encontrarás un archivo con ejemplos de consultas SQL AVANZADAS, DDL, DML y SUBCONSULTAS que puedes utilizar para generar reportes y obtener información detallada de la zapatería.
-•	Consideraciones: El diseño de la base de datos sigue las buenas prácticas de normalización, optimizando la eficiencia y reduciendo la redundancia de datos.
-Autor
-Este proyecto fue desarrollado por Doris Oneyda Pérez Criollo como parte de la creación de un sistema de gestión eficiente para una zapatería.
+4. Ejecuta el script completo para restaurar la estructura y datos en la base de datos.
+## Instrucciones Relevantes
 
+### Conexión a MySQL Workbench:
+
+- **Usuario:** tu_usuario
+- **Contraseña:** tu_contraseña
+- **Host:** localhost
+- **Puerto:** 3306
+
+### Tablas Principales:
+
+- **Clientes:** Gestión de la información de los clientes (nombre, dirección, teléfono).
+- **Productos:** Almacena los datos de los zapatos (nombre, precio, categoría).
+- **Proveedores:** Control de proveedores (nombre, contacto, productos que suministran).
+- **Ventas:** Registro de todas las transacciones realizadas.
+- **Inventario:** Seguimiento de las existencias de productos.
+
+### Consultas SQL:
+
+Dentro de la carpeta de archivos, encontrarás un archivo con ejemplos de consultas SQL avanzadas que puedes utilizar para generar reportes y obtener información detallada de la zapatería.
+
+### Consideraciones:
+
+El diseño de la base de datos sigue las buenas prácticas de normalización, optimizando la eficiencia y reduciendo la redundancia de datos.
+
+## Autor
+
+Este proyecto fue desarrollado por Doris Oneyda Pérez Criollo como parte de la creación de un sistema de gestión eficiente para una zapatería.
