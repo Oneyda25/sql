@@ -1,0 +1,8 @@
+- Actualizar el precio de un producto específico (por ejemplo, ProductoID = 1):
+
+UPDATE productos
+SET Precio = 80.00
+WHERE ProductoID = 1;
+
+
+

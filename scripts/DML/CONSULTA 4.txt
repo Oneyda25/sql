@@ -1,0 +1,4 @@
+- Seleccionar todos los clientes que se registraron en septiembre de 2024:
+
+SELECT * FROM clientes
+WHERE FechaRegistro BETWEEN '2024-09-01' AND '2024-09-30';

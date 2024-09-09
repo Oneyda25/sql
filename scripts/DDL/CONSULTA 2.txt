@@ -1,0 +1,10 @@
+- Eliminar la columna Telefono de la tabla productos:
+
+ALTER TABLE productos
+DROP COLUMN Telefono;
+
+
+
+
+
+

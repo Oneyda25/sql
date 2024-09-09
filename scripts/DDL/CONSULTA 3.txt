@@ -1,3 +1,4 @@
-- Crear un índice en la columna FechaVenta de la tabla ventas:
+- Cambiar el tipo de datos de la columna Precio en productos a DECIMAL(12,2):
 
-CREATE INDEX idx_fecha_venta ON ventas (FechaVenta);
+ALTER TABLE productos
+MODIFY COLUMN Precio DECIMAL(12,2);

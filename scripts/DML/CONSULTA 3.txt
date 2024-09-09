@@ -1,0 +1,5 @@
+- Eliminar una venta específica (por ejemplo, VentaID = 2):
+
+DELETE FROM ventas
+WHERE VentaID = 2;
+
