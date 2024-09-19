@@ -1,4 +1,4 @@
-- Mostrar el producto con el mayor margen de ganancia (precio - costo unitario):
+- Mostrar el producto con el mayor margen de ganancia (nombre del producto, margen de ganancia):
 
 SELECT P.NombreProducto, (P.Precio - DV.PrecioUnitario) AS Margen_Ganancia
 FROM productos P
